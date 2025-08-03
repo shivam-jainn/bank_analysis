@@ -1,0 +1,14 @@
+services:
+  anymoly:
+    image : anymoly:pre-v0
+    build : ./anymoly
+    ports : 
+        - 8080:8080
+  
+  unillm:
+    image : unillm:pre-v0
+    build : ./unillm
+    ports :
+        - 8001:8001
+
+
